@@ -1,0 +1,22 @@
+[2026-04-18 18:55:25] Starting ChatGPT Intel build pipeline
+[2026-04-18 18:55:25] Script dir: /Users/wujiaqi/Desktop/Codex-Intel-Rebuilder-main/scripts
+[2026-04-18 18:55:25] Project root: /Users/wujiaqi/Desktop/Codex-Intel-Rebuilder-main
+[2026-04-18 18:55:25] Default source location: /Users/wujiaqi/Desktop/Codex-Intel-Rebuilder-main/ChatGPT.dmg
+[2026-04-18 18:55:25] Default DMG output: /Users/wujiaqi/Desktop/Codex-Intel-Rebuilder-main/ChatGPT-Intel.dmg
+[2026-04-18 18:55:25] Work dir: /Users/wujiaqi/Desktop/Codex-Intel-Rebuilder-main/.tmp/chatgpt_intel_build_20260418_185525
+[2026-04-18 18:55:25] Source DMG: /Users/wujiaqi/Desktop/Codex-Intel-Rebuilder-main/ChatGPT.dmg
+[2026-04-18 18:55:25] [10%%] Mounting source DMG in read-only mode
+[2026-04-18 18:55:25] [15%%] Validating source app identity
+[2026-04-18 18:55:25] Validated source app bundle id: com.openai.chat
+[2026-04-18 18:55:25] Validated source app TeamIdentifier: 2DC432GLL2
+[2026-04-18 18:55:25] [20%%] Analyzing app structure
+[2026-04-18 18:55:25] WARNING: ChatGPT appears to be a native Swift app, not Electron-based
+[2026-04-18 18:55:25] Native Swift apps cannot be easily recompiled for Intel x86_64
+[2026-04-18 18:55:25] This build may not work correctly
+[2026-04-18 18:55:25] [30%%] Copying source app bundle to work dir
+[2026-04-18 18:55:27] Detected ChatGPT version: 1.2026.098
+[2026-04-18 18:55:27] [40%%] Checking binary architectures
+[2026-04-18 18:55:27] Main binary: /Users/wujiaqi/Desktop/Codex-Intel-Rebuilder-main/.tmp/chatgpt_intel_build_20260418_185525/ChatGPTOriginal.app/Contents/MacOS/ChatGPT: Mach-O 64-bit executable arm64
+[2026-04-18 18:55:27] ERROR: ChatGPT is a native ARM64-only app and cannot be converted to Intel x86_64
+[2026-04-18 18:55:27] Build failed. See /Users/wujiaqi/Desktop/Codex-Intel-Rebuilder-main/log-chatgpt.txt
+[2026-04-18 18:55:27] Temporary files kept at: /Users/wujiaqi/Desktop/Codex-Intel-Rebuilder-main/.tmp/chatgpt_intel_build_20260418_185525
