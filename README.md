@@ -4,8 +4,6 @@
 
 This project rebuilds the official `Codex.dmg` into an Intel-ready `Codex-Intel.dmg` for macOS `x86_64`.
 
-> This project is inspired by and adapted from [Codex-Mac-Intel-Converter-Sh](https://github.com/Kvisaz/Codex-Mac-Intel-Converter-Sh).
->
 > This repository provides scripts only. It does not include the official Codex source code, app bundle, or DMG.
 
 ## Quick Start
