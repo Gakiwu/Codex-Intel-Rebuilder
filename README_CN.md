@@ -4,8 +4,6 @@
 
 这个项目会把官方 `Codex.dmg` 重新构建为适用于 macOS Intel `x86_64` 的 `Codex-Intel.dmg`。
 
-> 本项目受启发并基于 [Codex-Mac-Intel-Converter-Sh](https://github.com/Kvisaz/Codex-Mac-Intel-Converter-Sh) 调整优化。
->
 > 本仓库只提供脚本，不包含官方 Codex 源码、应用本体或 DMG。
 
 ## 快速开始
